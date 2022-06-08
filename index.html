@@ -5,25 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <style>
+        h1{
+            font-family: fantasy, sans-serif;
+        }
+        .descricao{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #C0D8CC;
+            width: 400px;
+            padding: 15px 25px;
+            border-radius: 20px;
+            border-color: grey;
+            box-shadow: 1px 1px 2px grey;
+        }
+        body{
+            background-color: #f1f1ef;
+            font-size: 16px;
+        }
+        strong{
+            color:#330036
+        }
+        ul{
+            background-color: #C0D8CC;
+            padding: 15px 40px;
+            border-radius: 20px;
+            width: 400px;
+            box-shadow: 1px 1px 2px grey;
+        }
+        #links{
+            line-height: 30px
+        }
+        li{
+            font-size: 19px;
+            color:#330036
+        }
+        img{
+            border-radius: 60px;
+            width: 250px;
+            padding: 20px;
+        }
+        .color-align{
+            color: #214E34;
+        }
+        h3{
+            font-size: 22px;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Victor Figueiredo Mendes</h1>
+   
     <img src="victor.jpg" alt="Victor Figueiredo Mendes em um fundo branco fazendo um sinal de 2 com a mão" width="150px"> 
-    <h3> Olá, seja bem vindo ao meu portifólio!!</h3>
-    <p> 
+    <h1 class="color-align">Victor Figueiredo Mendes</h1>
+
+    <h3 class="color-align"> Olá, seja bem vindo ao meu portifólio!!</h3>
+    <p class="descricao"> 
     Eu sou o <a href="victor.jpg"> Victor</a>, nascí e moro em <strong>Limeira/SP.</strong> <br>
-    Sou estudante de Análise e Desenvolvimento de Sistemas e curso Desenvolvimento Web na <em>Trybe</em> =) <br>
-    Nos momentos de lazer gosto de jogar videogames, desenhar, tocar ou assistir. </p>
+    Sou estudante de Análise e Desenvolvimento de Sistemas e curso <br>Desenvolvimento Web na <em>Trybe</em> =) <br>
+    Nos momentos de lazer gosto de jogar videogames, desenhar, <br>tocar ou assistir. </p>
 
     <p> Instagram onde tenho alguns rabiscos <a href="https://www.instagram.com/animaldeoculos/" target="_blank"> aqui </a>
     </p>   
    
-    <p>
-        <a href="#listaHabilidade">Lista de habilidades</a> <br>
+    <p id="links">Links de navegação:<br>
+        <a href="#listaHabilidade">Lista de habilidades</a> 
         <a href="#habilidadesTrybe">Habilidades que aprenderei na <em>Trybe</em></a>
     </p>
    
-    <h2 id="listaHabilidade">Lista de habilidades:</h2>
+    <h2 id="listaHabilidade" class="color-align">Lista de habilidades:</h2>
     <ul>
         <li>Desenhar (pretendo aprimorar um dia ;))</li>
         <li>Tocar guitarra/contrabaixo</li>
@@ -31,7 +82,7 @@
         <li>MySQL</li>
         <li>Java</li>
     </ul>
-    <h2 id="habilidadesTrybe">Habilidades que aprenderei na <em>Trybe</em>:</h2>
+    <h2 id="habilidadesTrybe" class="color-align">Habilidades que aprenderei na <em>Trybe</em>:</h2>
     <ul>
         <li>HTML</li>
         <li>CSS</li>
