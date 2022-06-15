@@ -16,6 +16,7 @@ main{
 
 #me{
     border: 3px solid red;
+    text-align: center;
 }
 #me img{
     width: 80%;
@@ -26,7 +27,7 @@ main{
 }
 #me #foto-nome{
     border: 3px solid red;
-    width: 40%;
+    width: 35%;
     display: inline-block;
     margin: 10px;
     text-align: center;
@@ -42,9 +43,9 @@ h1, h2{
     width: 50%;
     text-align: start;
     display: inline-block;
-    margin: 10px;
-    height: 600px;
     vertical-align: top;
+    padding: 10px;
+    margin: 10px;
 }
 
 
