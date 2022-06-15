@@ -1,32 +1,39 @@
 
 body{
-    font-size: 25px;
+    font-size: 30px;
     margin: 0px;
     background-image: url(background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 main{
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    /*background-color: #fe6c63;*/
+    background-color: #240910;;
+    height: 100%;
+    padding: 20px;
+}
+.orange-bg{
+    background-color: #240910;
+    color: white;
 }
 
 #me{
-    border: 3px solid red;
     text-align: center;
 }
 #me img{
     width: 80%;
     border-radius: 50%;
-    border: 3px solid red;
     margin-left: auto;
     margin-right: auto;
+    padding: 3px;
+    background-color: #74f3b3;
 }
 #me #foto-nome{
-    border: 3px solid red;
     width: 35%;
     display: inline-block;
     margin: 10px;
@@ -36,39 +43,53 @@ main{
 }
 h1, h2{
     font-family: monospace, sans-serif;
+    color: #74f3b3;
+}
+h2{
+    font-size: 35px;
 }
 #me #descricao{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 3px solid red;
     width: 50%;
     text-align: start;
     display: inline-block;
     vertical-align: top;
-    padding: 10px;
+    padding: 40px;
     margin: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
 }
 
 
-strong{
-    color:#330036
+#container-listas{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 30px;
+    margin-bottom: 5%;
 }
-
-
-ul{
-    background-color: #C0D8CC;
-    padding: 15px 40px;
-    border-radius: 20px;
-    width: 400px;
-    box-shadow: 1px 1px 2px grey;
+#container-listas ul{
+    margin: 0px;
+    padding: 0px;
 }
-#links{
-    line-height: 30px
+#container-listas ul li{
+    text-align: center;
+    line-height: 50px;
+    list-style: none;
 }
-li{
-    font-size: 19px;
-    color:#330036
+#container-listas h2{
+    text-align: center;
 }
-
 a{
-    text-decoration: none;
+    color: #19b868;
 }
+a:hover{
+    color: #ddeb21;
+}
+li:nth-child(odd){
+    color: #fe6c63;
+}
+strong{
+    color: #fe6c63;
+}
+
