@@ -1,22 +1,58 @@
-h1{
-    font-family: fantasy, sans-serif;
-}
-.descricao{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #C0D8CC;
-    width: 400px;
-    padding: 15px 25px;
-    border-radius: 20px;
-    border-color: grey;
-    box-shadow: 1px 1px 2px grey;
-}
+
 body{
-    background-color: #f1f1ef;
-    font-size: 16px;
+    font-size: 25px;
+    margin: 0px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+#me{
+    border: 3px solid red;
+}
+#me img{
+    width: 80%;
+    border-radius: 50%;
+    border: 3px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+#me #foto-nome{
+    border: 3px solid red;
+    width: 40%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    vertical-align: top;
+}
+h1, h2{
+    font-family: monospace, sans-serif;
+}
+#me #descricao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid red;
+    width: 50%;
+    text-align: start;
+    display: inline-block;
+    margin: 10px;
+    height: 600px;
+    vertical-align: top;
+}
+
+
 strong{
     color:#330036
 }
+
+
 ul{
     background-color: #C0D8CC;
     padding: 15px 40px;
@@ -31,17 +67,7 @@ li{
     font-size: 19px;
     color:#330036
 }
-img{
-    border-radius: 60px;
-    width: 250px;
-    padding: 20px;
-}
-.color-align{
-    color: #214E34;
-}
-h3{
-    font-size: 22px;
-}
+
 a{
     text-decoration: none;
 }
